@@ -57,7 +57,6 @@ public class Controller : MonoBehaviour {
 		{
 			if (shadowEnergy > 0f)
 			{
-
 				foreach (GameObject sdw in shadows)
 				{
 					sdw.collider.enabled = true;
@@ -72,6 +71,7 @@ public class Controller : MonoBehaviour {
 			{
 				sdw.collider.enabled = false;
 			}
+
 		}
 
 //		if(Input.GetKeyDown(KeyCode.R))

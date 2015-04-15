@@ -45,6 +45,7 @@ public class HideShadow : MonoBehaviour {
 				sdw.SetActive (true);
 				sdw.collider.enabled = false;
 			}
+
 		}
 	}
 
